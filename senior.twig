@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Roboto+Slab:700" rel="stylesheet">
+    <title>Senior Template</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="grid">
+      <div class="headshot">
+        <img src="images/{{ last_name|title }}-s.jpg" alt="">
+      </div>
+      <div class="bio">
+        <div class="pool">{{ pool }}</div>
+        <h1>{{ first_name }} {{ last_name }}</h1>
+        <div class="high-school">{{ high_school }}</div>
+      </div>
+      <div class="years">
+        <div class="years-circle">
+          All-City Dive
+          <span class="years-number">{{ years }}</span>
+          years
+        </div>
+      </div>
+      <div class="questions">
+        <div class="dive">
+          <span class="head">Favorite Dive</span>
+          <p>{{ dive }}</p>
+        </div>
+
+        <div class="memory">
+          <span class="head">Favorite Memory</span>
+          <p>{{ memory }}</p>
+        </div>
+
+        <div class="future-plans">
+          <span class="head">Future Plans</span>
+          <p>{{ plans }}</p>
+        </div>
+      </div>
+      <div class="ac-logo">
+        <img src="images/ac-logo.png" alt="">
+      </div>
+    </div>
+  </body>
+</html>

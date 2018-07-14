@@ -1,0 +1,13 @@
+{
+    "name": "jnweaver/seniors",
+    "type": "project",
+    "require": {
+        "timber/timber": "^1.7"
+    },
+    "authors": [
+        {
+            "name": "Nick Weaver",
+            "email": "nick.weaver@wisc.edu"
+        }
+    ]
+}
