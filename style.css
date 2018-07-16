@@ -42,7 +42,7 @@
         overflow: hidden;
       }
       .years {
-        grid-column: 11/13;
+        grid-column: 10/12;
         grid-row: 1/2;
         text-align: center;
         /*align-self: center;*/
@@ -74,6 +74,7 @@
         color: #0606cc;
       }
       .bio {
+        padding-left: 32px;
         grid-row: 1/2;
         grid-column: 4/11;
       }
@@ -90,30 +91,30 @@
       .pool {
         color: #fff;
         font-family: 'Roboto Slab', serif;
-        font-size: 60px;
+        font-size: 48px;
         font-weight: bold;
         margin-bottom: 20px;
       }
       h1 {
         margin: 0;
         font-family: 'Roboto Slab', serif;
-        font-size: 48px;
+        font-size: 40px;
         /*font-family: sans-serif;*/
         color: #000;
       }
       .high-school {
-        font-size: 36px;
+        font-size: 30px;
         /*font-family: sans-serif;*/
         color: #000;
-        margin-bottom: 48px;
+        margin-bottom: 36px;
       }
       .questions p {
-        font-size: 28px;
-        margin: 4px 0 20px;
+        font-size: 24px;
+        margin: 4px 0 17px;
       }
       .ac-logo img {
         position: absolute;
         bottom: 45px;
         right: 45px;
-        width: 220px;
+        width: 180px;
       }
